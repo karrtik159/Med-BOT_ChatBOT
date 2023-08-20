@@ -36,6 +36,11 @@ python chatbot.py
 
 ## Screenshots
 
+Main Page:
+![image](https://github.com/karrtik159/Med-BOT-NLP-/assets/65113086/433080e6-a9ea-4a9d-bcdf-e37608139080)
+
+Chat Response:
+![image](https://github.com/karrtik159/Med-BOT-NLP-/assets/65113086/8f83dba2-329d-4aae-af55-f6e0f5872ae0)
 
 
 ## Acknowledgements
