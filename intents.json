@@ -1,0 +1,332 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "hii",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey there!",
+                "Hello! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "goodbye",
+                "have a good day",
+                "bye",
+                "cao",
+                "see ya"
+            ],
+            "responses": [
+                "Have a wonderful day!",
+                "Goodbye! Take care.",
+                "See you later! Stay well."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old are you?",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "I'm a digital assistant, so I don't have an age. How can I help you?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should i call you",
+                "what's your name?",
+                "who are you?",
+                "can you tell me your name"
+            ],
+            "responses": [
+                "You can call me Med-Bot!",
+                "I am Med-BOT, your medical assistant.",
+                "I go by the name Med-BOT."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "You're welcome! If you have more questions, feel free to ask.",
+                "Glad I could assist you. If you need further help, don't hesitate to ask.",
+                "Anytime! If you need more information, just let me know."
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered by you?"
+            ],
+            "responses": [
+                "I'm here to provide information and guidance related to basic healthcare. Feel free to ask about common illnesses, symptoms, prevention, and more."
+            ]
+        },
+        {
+            "tag": "job",
+            "patterns": [
+                "What jobs do you have?",
+                "what is your field",
+                "what do you do?"
+            ],
+            "responses": [
+                "I am here to assist with medical-related queries and provide information. My primary role is to help you find information about health topics."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "what are your working hours",
+                "hours of work"
+            ],
+            "responses": [
+                "I'm available to help you 24/7. Feel free to ask your questions anytime."
+            ]
+        },
+        {
+            "tag": "common cold symptoms",
+            "patterns": [
+                "Runny or stuffy nose",
+                "Sore throat",
+                "Cough",
+                "Congestion",
+                "Slight body aches or a mild headache",
+                "Sneezing",
+                "Low-grade fever",
+                "Generally feeling unwell (malaise)"
+            ],
+            "responses": [
+                "It seems that you are experiencing common cold symptoms. Rest and hydration can help you feel better."
+            ]
+        },
+        {
+            "tag": "fever symptoms",
+            "patterns": [
+                "Sweating",
+                "Chills and shivering",
+                "Headache",
+                "Muscle aches",
+                "Loss of appetite",
+                "Irritability",
+                "Dehydration",
+                "General weakness"
+            ],
+            "responses": [
+                "It seems that you are displaying symptoms of fever. Rest and proper care are recommended."
+            ]
+        },
+        {
+            "tag": "Diabetes symptoms",
+            "patterns": [
+                "increased hunger",
+                "increased thirst",
+                "weight loss",
+                "frequent urination",
+                "blurry vision",
+                "extreme fatigue"
+            ],
+            "responses": [
+                "The symptoms you described could indicate diabetes. It's advisable to consult a healthcare professional for proper evaluation."
+            ]
+        },
+        {
+            "tag": "Depression symptoms",
+            "patterns": [
+                "Hopeless outlook",
+                "Lost interest",
+                "Increased fatigue",
+                "sleep problem",
+                "Anxiety",
+                "change in weight",
+                "Looking at death"
+            ],
+            "responses": [
+                "The symptoms you mentioned are associated with depression. It's important to seek support from a mental health professional."
+            ]
+        },
+        {
+            "tag": "Asthma symptoms",
+            "patterns": [
+                "coughing",
+                "tightness in the chest",
+                "shortness of breath",
+                "difficulty talking",
+                "panic",
+                "fatigue"
+            ],
+            "responses": [
+                "Based on the symptoms you described, it's possible that you have asthma. Consulting a doctor for proper diagnosis is recommended."
+            ]
+        },
+        {
+            "tag": "common cold prevention",
+            "patterns": [
+                "What medicines can I buy to help me with my common cold?",
+                "tell me some prevention methods for common cold",
+                "What should I eat or drink if I am suffering from a common cold?",
+                "How can I avoid getting a cold or the flu?"
+            ],
+            "responses": [
+                "For common cold relief, you can consider over-the-counter medicines like decongestants and pain relievers. To prevent colds, wash your hands frequently, maintain good hygiene, and consume immune-boosting foods."
+            ]
+        },
+        {
+            "tag": "fever prevention",
+            "patterns": [
+                "What medicines can I buy to help me with my fever?",
+                "tell me some prevention methods for fever",
+                "What should I eat or drink if I am suffering from fever?",
+                "How can I prevent getting a fever?"
+            ],
+            "responses": [
+                "To manage fever, you can use medications like acetaminophen or ibuprofen. Prevent fever by practicing good hygiene, staying hydrated, and avoiding contact with sick individuals."
+            ]
+        },
+        {
+            "tag": "diabetes prevention",
+            "patterns": [
+                "What medicines can I buy to help me with my diabetes?",
+                "tell me some prevention methods for diabetes",
+                "What should I eat or drink if I am suffering from diabetes?",
+                "How can I lower my risk of developing diabetes?"
+            ],
+            "responses": [
+                "Diabetes management often involves medications like insulin and lifestyle changes. Prevent diabetes by maintaining a healthy weight, exercising regularly, and adopting a balanced diet."
+            ]
+        },
+        {
+            "tag": "depression prevention",
+            "patterns": [
+                "What medicines can I buy to help me with my depression?",
+                "tell me some prevention methods for depression",
+                "What should I eat or drink if I am dealing with depression?",
+                "How can I support my mental health and prevent depression?"
+            ],
+            "responses": [
+                "Depression treatment includes therapy and medications prescribed by a professional. Prevent depression by staying socially connected, practicing self-care, and seeking support when needed."
+            ]
+        },
+        {
+            "tag": "asthma prevention",
+            "patterns": [
+                "What medicines can I buy to help me with my asthma?",
+                "tell me some prevention methods for asthma",
+                "What should I eat or drink if I am suffering from asthma?",
+                "How can I manage asthma and prevent attacks?"
+            ],
+            "responses": [
+                "Asthma treatment involves medications like inhalers and identifying triggers. Prevent asthma attacks by avoiding allergens, maintaining indoor air quality, and having an asthma action plan."
+            ]
+        },
+        {
+            "tag": "Consultation",
+            "patterns": [
+                "who should I contact for consultation?",
+                "is there any doctor available?",
+                "can you give me some suggestions for doctor consultations?",
+                "can you set up a meeting with a doctor for consultation?",
+                "is there any doctor available for consultation"
+            ],
+            "responses": [
+                "You can schedule a consultation with a local doctor in your area or at Ganpat University. It's important to discuss your health concerns with a medical professional for personalized guidance."
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, but I couldn't understand your input. Please provide more information or ask a specific health-related question."
+            ]
+        },
+        {
+            "tag": "symptoms_unknown",
+            "patterns": [
+                "I don't know what's wrong",
+                "I'm not sure about my symptoms",
+                "I'm feeling unwell but can't identify the symptoms",
+                "I have some symptoms but don't know what they mean"
+            ],
+            "responses": [
+                "It's important to prioritize your health. If you're experiencing symptoms, it's recommended to consult a medical professional who can assess your situation and provide appropriate guidance."
+            ]
+        },
+        {
+            "tag": "medication_information",
+            "patterns": [
+                "Tell me more about [medication name]",
+                "What is [medication name] used for?",
+                "What are the side effects of [medication name]?",
+                "Can you provide details about [medication name]?"
+            ],
+            "responses": [
+                "I can provide information about medications. Please provide the specific name of the medication you're asking about."
+            ]
+        },
+        {
+            "tag": "mental_health_support",
+            "patterns": [
+                "I'm struggling with my mental health",
+                "I feel anxious and overwhelmed",
+                "Can you help with mental health issues?",
+                "I need support for my emotional well-being"
+            ],
+            "responses": [
+                "I'm here to listen and support you. If you're struggling with your mental health, consider reaching out to a mental health professional or counselor for personalized assistance."
+            ]
+        },
+        {
+            "tag": "emergency",
+            "patterns": [
+                "I have a medical emergency",
+                "This is urgent",
+                "I need immediate medical help",
+                "Call for help"
+            ],
+            "responses": [
+                "If you have a medical emergency, please call emergency services or seek help from a medical professional immediately. Your safety and well-being are a top priority."
+            ]
+        },
+        {
+            "tag": "healthy_lifestyle",
+            "patterns": [
+                "How can I maintain a healthy lifestyle?",
+                "What habits contribute to good health?",
+                "Give me tips for staying healthy",
+                "What can I do to improve my overall well-being?"
+            ],
+            "responses": [
+                "Maintaining a healthy lifestyle involves a balanced diet, regular exercise, sufficient sleep, stress management, and avoiding harmful habits like smoking. Remember to prioritize self-care and consult professionals for personalized advice."
+            ]
+        }
+    ]
+}
